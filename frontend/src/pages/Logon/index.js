@@ -30,7 +30,7 @@ export default function Logon(){
                 <h1>Faça seu logon</h1>
                 <input 
                     placeholder="Sua ID"
-                    value = {id}
+                    value={id}
                     onChange={e=>setId(e.target.value)}
                     />
                 <button className="button" type="submit">Entrar</button>
